@@ -48,3 +48,52 @@
     font-weight: bold;
     color: #d1411e;
 }
+
+
+.footer-container {
+  height: calc(100vh - 100px);
+  background-color: #222;
+  display: flex;
+}
+
+.footer-item{
+  flex: 1;
+  position: relative;
+  display: flex;
+}
+
+.footer-card{
+  padding: 0 20px;
+}
+
+.footer-title{
+  font-size: 18px;
+  color: #b7903c;
+}
+
+.motto {
+  color: rgb(211, 211, 211);
+}
+
+@media screen and (max-width: 480px) {
+  .footer-container {
+    height: auto;
+    text-align: center;
+  }
+  .footer-item:first-child {
+    display: none;
+  }
+
+  .footer-item {
+    flex-direction: column;
+  }
+
+  .footer-title {
+    font-size: 30px;
+  }
+
+  .footer-text {
+    font-size: 20px;
+  }
+}
+

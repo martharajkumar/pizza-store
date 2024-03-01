@@ -9,7 +9,7 @@ function Navbar() {
     <div className='nav-bar-container'>
         <div className='nav-bar-item'>
             <div className='callButton'>
-                <img src={'/img/telephone.png'} alt="" width='32' height='32'/>
+                <img src={'/img/telephone.png'} alt="" width='32' height='32' />
             </div>
             <div className='text'>
                 <div className='text'>Call Now</div>
