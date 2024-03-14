@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
 
@@ -17,7 +18,7 @@ function Navbar() {
             </div> 
         </div>
         {HomeItems.map((item, index) => (
-        <div className='text' key={index}>{item}</div>
+        <Link className='text' key={index}>{item}</Link>
     ))}
     <div className='nav-bar-item'>
             <div className='cartButton'>
